@@ -1,0 +1,55 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "tenderbidding-86f71",
+          "appId": "1:902206147921:android:712c0aa5c1e8d251f65770",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "tenderbidding-86f71",
+          "appId": "1:902206147921:ios:0cb695e34ae4005bf65770",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "tenderbidding-86f71",
+          "appId": "1:902206147921:ios:0cb695e34ae4005bf65770",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tenderbidding-86f71",
+          "configurations": {
+            "android": "1:902206147921:android:712c0aa5c1e8d251f65770",
+            "ios": "1:902206147921:ios:0cb695e34ae4005bf65770",
+            "macos": "1:902206147921:ios:0cb695e34ae4005bf65770",
+            "web": "1:902206147921:web:054be75614585f80f65770",
+            "windows": "1:902206147921:web:fe7f634ed9c07ce2f65770"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
